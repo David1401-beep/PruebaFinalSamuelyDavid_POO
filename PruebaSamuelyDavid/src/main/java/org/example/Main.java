@@ -43,7 +43,7 @@ public class Main {
                             System.out.println("Saliendo del sistema");
                             break;
                         default:
-                            System.out.println("Opcion no valida. \n");
+                            System.out.println("Opcion no valida. I ntente de nuevo \n");
 
                     }
                 } else {

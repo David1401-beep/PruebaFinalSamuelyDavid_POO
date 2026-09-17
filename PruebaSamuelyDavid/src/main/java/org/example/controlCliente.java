@@ -21,7 +21,7 @@ private LinkedList <String> control;
 
     public void atendersiguienteCliente(){
         if (control.isEmpty()){
-            System.out.println("");
+            System.out.println("La fila esta vacia,no hay clientes");
         }else {
             String clienteAtendido = control.removeFirst();
             System.out.println("Atendido : " + clienteAtendido);
